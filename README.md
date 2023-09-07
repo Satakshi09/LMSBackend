@@ -1,10 +1,10 @@
 # Library Management Backend (Spring Boot)
 
-# Introduction
+## Introduction
 The Library Management Backend is a Spring Boot application that provides RESTful APIs for managing books and authors. It serves as the backend component of the Library Management system.
 
 
-# Features:
+## Features:
 
 - Authentication: Librarians can securely log in and log out of the application.
 - Books Listing: Librarians can view a list of books in the library, including details such as titles,   authors, and availability.
@@ -26,28 +26,28 @@ The Library Management Backend is a Spring Boot application that provides RESTfu
 https://github.com/Satakshi09/LMSBackend.git
 
 
-## Configuration
+### Configuration
 - Configure the database connection in src/main/resources/application.properties.
 - Customize security settings in src/main/java/com/example/security/SecurityConfig.java.
 - Additional configuration options can be found in the application's properties files.
 
-## Usage
+### Usage
 
 API Endpoints
 The backend provides the following RESTful API endpoints for managing books and authors:
 
-- Authors API:
-GET /api/authors: List all authors.
-POST /api/authors: Create a new author.
-PUT /api/authors/{id}: Update an existing author.
-DELETE /api/authors/{id}: Delete an author.
+#### Authors API:
+- GET /api/authors: List all authors.
+- POST /api/authors: Create a new author.
+- PUT /api/authors/{id}: Update an existing author.
+- DELETE /api/authors/{id}: Delete an author.
 
-- Books API:
-GET /api/books: List all books.
-GET /api/books/{id}: Retrieve book by ID.
-POST /api/books: Create a new book.
-PUT /api/books/{id}: Update an existing book.
-DELETE /api/books/{id}: Delete a book.
+ #### Books API:
+- GET /api/books: List all books.
+- GET /api/books/{id}: Retrieve book by ID.
+- POST /api/books: Create a new book.
+- PUT /api/books/{id}: Update an existing book.
+- DELETE /api/books/{id}: Delete a book.
 
 
 
