@@ -4,10 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Assignment05LmsBackendApplication {
-
+public class LmsBackendApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(Assignment05LmsBackendApplication.class, args);
+		SpringApplication.run(LmsBackendApplication.class, args);
 	}
-
 }
